@@ -1,0 +1,51 @@
+
+.cont {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffd900;
+}
+.cont h2{
+    text-align: center;
+}
+.p-row {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 20px ;
+    grid-column-end:auto;
+
+}
+.p-col{
+    background: white;
+    padding: 10% 15%;
+    text-align: center;
+    border-radius: 10px;
+}
+.p-col h3{
+    font-size: 35px;
+}
+.p-col button{
+    width: 100%;
+    min-height:100px;
+    color: black;
+    border: 1px red;
+    border-radius: 6px;
+    margin-top: 30px;
+    transition:0.5sec;
+    padding-bottom: 10px;
+
+
+}
+.p-col button hover{
+    background: red;
+    
+}
+.p-col p1{
+    box-shadow: cyan;
+
+}
+.p-col p1{
+    font-size: 20px;
+}
